@@ -18,7 +18,11 @@
   "author": "Dajana Jozanovic",
   "license": "ISC",
   "dependencies": {
-    "mongodb": "^3.6.9"
+    "express": "^5.0.0-alpha.8",
+    "mongodb": "^3.6.9",
+    "mongoose": "^5.12.12",
+    "mongoose-type-email": "^1.1.2",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"

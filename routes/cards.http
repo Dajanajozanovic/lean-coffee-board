@@ -2,31 +2,31 @@
 @baseUrl = http://localhost:4000
 
 ### GET all cards
-GET {{{baseUrl}}/api/cards
+GET {{baseUrl}}/api/cards
 
 ### GET a single card
 GET {{baseUrl}}/api/cards/1
 
 ### GET a not existing card (404)
-GET {{baseUrl}/api/cards/2000
+GET {{baseUrl}}/api/cards/2000
 
 ### POST a new card
-POST https://localhost:4000/api/cards
+POST http://localhost:4000/api/cards
 Content-Type: application/json
 
 {
-    "text": "What is mongoose",
-    "votes": 0,
-    "author": "Dajana"
-
+  "text": "What is mongoose",
+  "votes": "",
+  "author": "Dajana"
 }
+
 
 ### PATCH a single card
 PATCH {{baseUrl}}/api/cards/1
 Content-Type: application/json
 
 {
-    "text": "Where does the name Mongo came from?"
+  "text": "Where does the name Mongo come from?"
 }
 
 ### DELETE a single card
